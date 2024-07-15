@@ -9,6 +9,51 @@ body{
       position: relative;
 }
 
+.custom{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 80px;
+}
+
+.cards{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      border-radius: 8px;
+      width: 300px;
+      padding: 10px;
+      margin: 10px;
+}
+
+.img{
+      border-radius: 3px;
+}
+
+.love{
+      color: palevioletred;
+      font-size: 1.5rem;
+      margin: 4px;
+}
+
+.sorrytext{
+      color: black;
+      font-size: 2rem;
+      margin: 10px;
+}
+
+.name{
+      font-weight: bold;
+}
+
+.second{
+      font-size: 1.2rem;
+      align-self: center;
+}
+
 .frame{
       position: relative;
       top: 50px;
